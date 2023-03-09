@@ -45,7 +45,8 @@ import "./tailwind.css"
     <button class="bg-sky-500 hover:bg-blue-700 text-red-600 font-bold py-2 px-4 rounded-full">
   Button
 </button>
-<button class="sm:bg-amber-500 md:bg-lime-500 lg:bg-teal-500 xl:bg-cyan-900 ">
+<br>
+<button class="sm:bg-amber-500 md:bg-lime-500 lg:bg-teal-500 xl:bg-cyan-900  display: flex">
   Button
 </button>
 
