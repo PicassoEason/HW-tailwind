@@ -42,14 +42,17 @@ import "./tailwind.css"
     <button class="bg-sky-500 hover:bg-sky-700 rounded-3xl">
       Save changes
     </button>
-    <button class="bg-sky-500 hover:bg-blue-700 text-red-600 font-bold py-2 px-4 rounded-full">
+    <button class="hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-red-900 bg-indigo-800">
   Button
 </button>
 <br>
-<button class="sm:bg-amber-500 md:bg-lime-500 lg:bg-teal-500 xl:bg-cyan-900  display: flex">
-  Button
-</button>
-
+<div class="  flex justify-center ">
+  <div class="py-12">
+    <button class="sm:bg-amber-500 md:bg-lime-500 lg:bg-teal-500 xl:bg-cyan-900">
+      Button
+    </button>
+  </div>
+</div>
 
 
     <div class="bg-sky-500 border-slate-100 dark:bg-slate-800 dark:border-slate-500 border-b rounded-t-xl p-4 pb-6 sm:p-10 sm:pb-8 lg:p-6 xl:p-10 xl:pb-8 space-y-6 sm:space-y-8 lg:space-y-6 xl:space-y-8">
